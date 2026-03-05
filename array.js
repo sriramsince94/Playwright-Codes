@@ -1,0 +1,18 @@
+let a=[2,4,6]
+console.log(a)
+let b=Array(2,5,8,9,1,25)
+console.log(b)
+let c=Array(6)
+console.log(c)
+c.push(2,3)
+console.log(c)
+c.push(4)
+console.log(c)
+console.log(c.length)
+console.log(c.indexOf(3))
+let newfiltered=b.filter(a=>a%2==0)
+console.log(newfiltered)
+let s=Array(22,17,18,56)
+console.log(s.sort((a,b)=>a-b))
+let d=["sriram","rishi","kiran"]
+console.log(d.sort())
